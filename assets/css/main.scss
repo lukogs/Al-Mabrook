@@ -1,0 +1,80 @@
+.navbar .navbar-brand img {
+    height: 80px;
+    // background-color: #fff;
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .theme-switch {
+        top: 40px;
+    }  
+}
+.w3l-main-slider .w3l-bannerhny-content {
+    background: url("../assets/images/about.jpg") repeat 0 0;
+    -ms-background-size: cover;
+    // background-size: cover;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+    display: grid;
+    align-items: center;
+    min-height: 680px;
+    background-size: cover;
+}
+
+.w3l-main-slider .w3l-bannerhny-content::before {
+    content: "";
+    background: var(--layer);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.w3l-main-slider .w3l-bannerhny-content h3 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    // text-transform: uppercase;
+    max-width: 550px;
+}
+
+.box-wrap-grid:hover { /* .box-wrap h4 a:hover {     */
+    .icon{
+        color: var(--primary-color);
+    }
+    .info{
+        color: var(--primary-color);
+    }
+}
+
+#footer{
+    a.navbar-brand{
+        font-size: 16px;
+    }
+}
+/* removed css 
+.w3l-main-slider .w3l-bannerhny-content {
+    background: url(../images/banner1.jpg) no-repeat center;
+    -ms-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+    display: grid;
+    align-items: center;
+    min-height: 680px;
+    background-size: cover;
+}
+
+.w3l-main-slider .w3l-bannerhny-content::before {
+    content: "";
+    background: var(--layer);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+*/
