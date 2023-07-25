@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .w3l-main-slider .w3l-bannerhny-content {
+            min-height: 100px;
+        }
+        .section-bg {
+    padding: 120px 0;
+    color: #fff;
+}
+
+.section-bg:before {
+    content: "";
+    background: var(--footer-bg);
+    position: absolute;
+    bottom: -20px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    transform: skewY(-1deg);
+}
+    </style>
 </head>
 
 <body>
@@ -30,13 +50,13 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-lg-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="service.html">Services</a>
+                            <a class="nav-link scroll active" href="service.html">Services</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -89,142 +109,22 @@
     </header>
     <!--//Header-->
     <!--/Banner-Start-->
-    <!--/main-banner-->
-    <div class="w3l-main-slider position-relative" id="home">
-        <div class="w3l-bannerhny-content">
-            <div class="container">
-                <div class="w3l-bannerhny-info">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
+        <!--/main-banner-->
+        <div class="w3l-main-slider position-relative" id="home">
+            <div class="w3l-bannerhny-content">
+                <!-- <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-12">
 
-                            <h3 class="mb-md-5 mb-4 pt-5 ml3">
-                                Reliable and Professional transportation provider</h3>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="banner-form-w3">
-                                <form id="contact" onsubmit="return postToGoogle();">
-                                <!-- <form action="" method="post"> -->
-                                    <div class="row">
-                                        <div class="mb-3 col-sm-12 col-md-6 col-lg-6">
-                                          <label for="exampleInputEmail1" class="form-label">Name</label>
-                                          <input type="text" id="Name" name="entry.1018486235" class="form-control" id="text" placeholder="Full Name" aria-describedby="fullName">
-                                        </div>
-                                        <div class="mb-3 col-sm-12 col-md-6 col-lg-6">
-                                          <label for="mobile" class="form-label">Mobile</label>
-                                          <input type="text" id="Mobile" name="entry.312249246" class="form-control" placeholder="+971 xx xxxx xxx" id="mobile">
-                                        </div>
-                                        <div class="mb-3 col-sm-12 col-md-6 col-lg-6">
-                                            <label for="fromplace" class="form-label">Transport From</label>
-                                            <input type="text" id="From" name="entry.1021103830" class="form-control" id="text" placeholder="Enter City/Place">
-                                        </div>
-                                        <div class="mb-3 col-sm-12 col-md-6 col-lg-6">
-                                            <label for="toplace" class="form-label">Transport To</label>
-                                            <input type="text" id="To" name="entry.160128994" class="form-control" id="text" placeholder="Enter City/Place">
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                    <div class="form-footer mt-3">
-                                        <span class="info">
-                                            <b>
-                                                Get your <i>Free quote</i>
-                                            </b>
-                                            by completing our quick form  <br> or
-                                            <a href="tel:+971522694030" class="btn btn-sm btn-outline-success"><i class="fas fa-phone-alt"></i> +971 52 269 4030</a>
-                                        </span>
-                                    </div>
-                                </form>
-                                
-                            </div>
-
+                            <h3>
+                                About
+                            </h3>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
-    </div>
-    <!--//main-banner-->
-    <!--/Client-Section-->
-    <section id="about" class="clients">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-6 pe-lg-5">
-                    <div class="title-content text-left">
-                        <h6 class="title-subw3hny mb-2"><span>About Us</span></h6>
-                        <h3 class="title-w3l">We take pride in serving our customers safely.</h3>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4 ps-lg-5 mx-lg-0">
-                    <p class="pr-lg-5">
-                        We are one of the leading passenger transport companies established in 2006 with the motive to provide fast and regular service to all categories of employees.
-                        <br>
-                        Our company is managed by professional and well experienced staff, thereby enjoyed quality and modern trends in the field of passenger transport.
-                        <br>
-                        We have all types of buses with comprehensive insurance cover which will satisfy your requirement and standard of the company. We provide long & short term staff transport service and tour services.
-
-                    </p>
-                </div>
-            </div>
-
-            <div class="car-img mx-0 text-center px-lg-5">
-                <img src="assets/images/banner-removebg-preview.png" alt="" class="about-img img-fluid">
-            </div>
-
-        </div>
-    </section>
-    <!--//client-Section-->
-    <!--/About-Section-->
-    <section id="about" class="w3labout section-bg">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="content col-xl-5 d-flex align-items-stretch">
-                    <div class="content">
-                        <h6 class="title-subw3hny two mb-2"><span>Why Us</span></h6>
-                        <h3 class="title-w3l two">Yeah, why choose us?</h3>
-                        <p>
-                            We offer wide range of Vehicles / Transportation services!!!
-                        </p>
-                        <a href="about.html" class="btn btn-style btn-primary about-btn mt-3"> Read More</a>
-                    </div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-stretch">
-                    <div class="icon-boxes d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-md-6 icon-box" data-aos="fade-right">
-                                <!-- <i class="fas fa-archway"></i> -->
-                                <i class="fas fa-bus"></i>
-                                <h4>
-                                    Transport Bus</h4>
-                                <p> From Passenger Bus to School transport</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-left">
-                                <i class="fas fa-taxi"></i>
-                                <h4>
-                                    Private                                    
-                                    Vehicles</h4>
-                                <p> High roof vehicles having 12 - 16 seats</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-right">
-                                <i class="fas fa-boxes"></i>
-                                <h4>
-                                    Closed Carrier
-                                    Transport</h4>
-                                <p> Animal Transports as well as water tankers.</p>
-                            </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-left">
-                                <i class="fas fa-baby-carriage"></i>
-                                <h4>
-                                    Business Services</h4>
-                                <p> Hotel, Corporates, Construction.. you name it, we provide it. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--//End-content-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//About-Section-->
-
+        <!--//main-banner-->
     <!--/Tab-section-->
     <section id="tabs" class="tabs">
         <div class="container">
@@ -261,7 +161,7 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                             <h3>All kinds of Passenger transports available!!</h3>
                             <p class="fst-italic mt-3">
-                                Our goal is to provide safe affordable and comfortable transportation services. We offer a variety of fleets that you can choose from any emirates in UAE Our bus rental service is available across all over the emirates
+                                <strong>Our goal is to provide safe affordable and comfortable transportation services. We offer a variety of fleets that you can choose from any emirates in UAE Our bus rental service is available across all over the emirates</strong>
                             </p>
                             <ul class="mt-3">
                                 <li><i class="fas fa-check-double"></i> AC/Non-AC fleets</li>
@@ -282,7 +182,7 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                             <h3>Assured care and safety for your pupils!!</h3>
                             <p class="fst-italic mt-3">
-                                We provide long term and short term transportation services for Schools, Colleges, and other Educational Institutions.
+                                <strong>We provide long term and short term transportation services for Schools, Colleges, and other Educational Institutions.</strong>
                             </p>
                             <ul class="mt-3">
                                 <li><i class="fas fa-check-double"></i> AC/Non-AC fleets</li>
@@ -304,7 +204,7 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                             <h3>Small Business ~ Corporate... We got you!!</h3>
                             <p class="fst-italic mt-3">
-                                We offer 15 seater and 30 seater buses with drivers for fast and efficient staff transfers from their places of work to their apartments.
+                            <strong>We offer 15 seater and 30 seater buses with drivers for fast and efficient staff transfers from their places of work to their apartments.</strong>
                             </p>
                             <ul class="mt-3">
                                 <li><i class="fas fa-check-double"></i> AC/Non-AC fleets</li>
@@ -327,8 +227,8 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                             <h3>Need rental for your own activities?</h3>
                             <p class="fst-italic mt-3">
-                                Should the group, or any of its members, require a private hire service, we can help with this service. 
-                                We have wide vareity of fleets and you can be assured of our sourcing the best possible company at the best possible rate. Should your party member require a luxury vehicle or a standard vehicle, we will give you our best possible advice and guidance.
+                            <strong>Should the group, or any of its members, require a private hire service, we can help with this service. 
+                                We have wide vareity of fleets and you can be assured of our sourcing the best possible company at the best possible rate. Should your party member require a luxury vehicle or a standard vehicle, we will give you our best possible advice and guidance.</strong>
                             </p>
                             <ul class="mt-3">
                                 <li><i class="fas fa-check-double"></i> Hiace/High roof 15-Seats</li>
@@ -532,85 +432,6 @@
 </section>
 <!--//Portfolio-Section -->
 
-
-    <!--/contact-->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-title">
-                <h6 class="title-subw3hny mb-2"><span>Contact Us</span></h6>
-                <h3 class="title-w3l mb-2">Get In Touch With Us</h3>
-                <p class="w3conatact-p mb-4">Start working with Us that can provide everything you need to generate awareness, drive traffic, connect.
-                    We guarantee that you’ll be able to have any issue resolved within 24 hours.</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 pe-lg-5">
-                    <div class="row">
-                        <div class="cont-details">
-                            <div class="cont-top" data-aos="fade-up" data-aos-duration="3000">
-                                <div class="cont-left text-center">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div class="cont-right">
-                                    <h6>Company Address</h6>
-                                    <p>Dynatrade Building, Office # 108 <br>Al Quoz 3, Dubai - U.A.E. <br>P.O. Box:79224</p>
-                                </div>
-                            </div>
-                            <div class="cont-top margin-up" data-aos="fade-up" data-aos-duration="3000">
-                                <div class="cont-left text-center">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <div class="cont-right">
-                                    <h6>Call Us</h6>
-                                    <p><a href="tel:+97145785080">+971 4 578 50 80</a></p>
-                                    <p><a href="tel:+971522694030">+971 52 269 4030</a></p>
-                                </div>
-                            </div>
-                            <div class="cont-top margin-up" data-aos="fade-up" data-aos-duration="3000">
-                                <div class="cont-left text-center">
-                                    <i class="far fa-envelope"></i>
-                                </div>
-                                <div class="cont-right">
-                                    <h6>Email Us</h6>
-                                    <p><a href="mailto:info.almabrook@gmail.com" class="mail">info.almabrook@gmail.com</a></p>
-                                    <!-- <p><a href="mailto:example@mail2.com" class="mail">example@mail2.com</a></p> -->
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-7 mt-lg-0 mt-5" data-aos="fade-up" data-aos-duration="3000">
-                    <form action="https://sendmail.w3layouts.com/submitForm" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col form-group">
-                                <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
-                            </div>
-                            <div class="col form-group">
-                                <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message" required=""></textarea>
-                        </div>
-                        <div class="w3lhny-submit text-right">
-                            <button type="submit" class="btn btn-primary btn-style ">Send Message</button>
-                        </div>
-
-                    </form>
-                </div>
-
-            </div>
-            <div class="map-iframe mt-5 pt-lg-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3611.4783337113486!2d55.243263115008624!3d25.15332168391659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDA5JzEyLjAiTiA1NcKwMTQnNDMuNiJF!5e0!3m2!1sen!2sin!4v1690181462053!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
-            </div>
-        </div>
-    </section>
-    <!--//contact-->
     <!--/footer-->
     <footer id="footer" class="wthree-footerhny">
         <div class="footer-top">
@@ -678,37 +499,37 @@
         <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
             <span class="fa fa-angle-up"></span>
         </button>
-        <script>
-            window.onload = function(){
-                setBg()
-            };
-            function setBG(){
-                $(".logo").addClass("bg-white");
-            }
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {
-                scrollFunction()
-            };
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    document.getElementById("movetop").style.display = "block";
-                } else {
-                    document.getElementById("movetop").style.display = "none";
-                }
-            }
-
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-
-        </script>
-        <!-- //move top -->
+        
     </footer><!-- End Footer -->
 
+    <script>
+        window.onload = function(){
+            setBg()
+        };
+        function setBG(){
+            $(".logo").addClass("bg-white");
+        }
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <!-- //move top -->
     <!-- Template JavaScript -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/theme-change.js"></script>

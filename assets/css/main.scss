@@ -1,6 +1,6 @@
 .navbar .navbar-brand img {
     height: 80px;
-    // background-color: #fff;
+    background-color: #fff;
 }
 @media screen and (min-width: 200px) and (max-width: 800px) {
     .theme-switch {
@@ -38,7 +38,10 @@
     // text-transform: uppercase;
     max-width: 550px;
 }
-
+.about-img{
+    width: 900px;
+    height: 311px;
+}
 .box-wrap-grid:hover { /* .box-wrap h4 a:hover {     */
     .icon{
         color: var(--primary-color);

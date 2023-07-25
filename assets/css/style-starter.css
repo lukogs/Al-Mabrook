@@ -18769,7 +18769,7 @@ a.dropdown-item.active {
     line-height: 70px;
     font-weight: 600;
     /* text-transform: capitalize; */
-    max-width: 550px;
+    /* max-width: 550px; */
 }
 
 .w3l-main-slider .banner-form-w3 {
