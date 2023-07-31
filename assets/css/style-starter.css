@@ -19224,7 +19224,8 @@ section {
 }
 
 .box-wrap:hover .icon {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: green;
     transition: 0.3s ease-in-out;
 }
 
@@ -19234,7 +19235,8 @@ section {
 }
 
 .icon span {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: green;
     font-size: 24px;
     line-height: 60px;
 }
